@@ -35,5 +35,7 @@ height: 100%;
     font-family: "Lato" , sans-serif;
 } 
 .nav-link:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    color: yellow;
 }
+
