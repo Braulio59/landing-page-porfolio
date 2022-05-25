@@ -113,16 +113,23 @@ height: 100%;
 
 .cannabis__cannabis {
     display: flex; 
-    background-color: red; 
+    /* background-color: red;  */
     justify-content: center;
     align-items: center; 
     height: 40vh 
 } 
 
-.intro_text h2 {
-    display: flex; 
+.intro_text {
+    display: flex;
+    align-items: colum
     justify-content: center;
-    align-items: center; 
-    height: 2rem; 
-    margin-top: 2rem;
-     }
+    padding: 0 300px;
+} 
+
+.intro_text p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #1e1e1e;
+    max-width: 400px
+ 
+}
