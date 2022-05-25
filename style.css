@@ -5,18 +5,31 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+
 }
 
-.body{
+/* .body{
     font-family: 'Poppins', sans-serif;
+}   */
+
+body {
+    background-color: #dce35b;
 }
+
+a {
+    text-decoration: none;
+
+}
+
 
 .logo{
 height: 100%;
 }
 
 .header{
-    background: yellowgreen;
+    background: #dce35b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #dce35b, #45b649); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #dce35b, #45b649);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,3 +52,77 @@ height: 100%;
     color: yellow;
 }
 
+
+.cannabis {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 60px;
+} 
+
+.can {
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+} 
+
+.bis__text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+} 
+
+.bis__text h1 {
+    font-family: "Lato", sans-serif; 
+    font-weight:900; 
+    font-size: 2rem;
+} 
+
+.bis__text p {
+    max-width: 450px; 
+    border-radius: 2px;
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+ } 
+
+ .text__btns {
+     margin-top: 1rem;
+     display: flex;
+     gap: 10px;
+ }
+
+ .btn {
+     border: 2px solid #000000;
+     padding: 1rem 1.3rem;
+     border-radius: 10px;
+     font-weight: 600;
+     font-family: "Lato", sans-serif;
+     
+ }
+
+ .btn__cta {
+     background: rgb(2, 79, 2);
+     color: #dce35b;
+ }
+
+ .btn__more {
+     color: #1e1e1e
+} 
+
+.cannabis__cannabis {
+    display: flex; 
+    background-color: red; 
+    justify-content: center;
+    align-items: center; 
+    height: 40vh 
+} 
+
+.intro_text h2 {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 2rem; 
+    margin-top: 2rem;
+     }
