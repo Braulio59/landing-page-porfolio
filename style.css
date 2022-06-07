@@ -43,10 +43,15 @@ height: 100%;
     list-style: none;
 }
 
+.nav-item {
+    text-align: center;
+    display: flex;
+}
+
 .nav-link{
     color: black ;
     font-family: "Lato" , sans-serif;
-} 
+}
 .nav-link:hover{
     text-decoration: none;
     color: yellow;
@@ -54,38 +59,39 @@ height: 100%;
 
 
 .cannabis {
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 70vh;
     gap: 60px;
-} 
+}
 
 .can {
-    width: 350px;
+    width: 330px;
     height: auto;
     border-radius: 20px;
-} 
+    box-shadow: rgb(0, 0, 0, 0.5)
+}
 
 .bis__text {
     display: flex;
     flex-direction: column;
     gap: 25px;
-} 
+}
 
 .bis__text h1 {
-    font-family: "Lato", sans-serif; 
-    font-weight:900; 
+    font-family: "Lato", sans-serif;
+    font-weight:900;
     font-size: 2rem;
-} 
+}
 
 .bis__text p {
-    max-width: 450px; 
+    max-width: 450px;
     border-radius: 2px;
     font-size: 1rem;
     font-family: "Lato", sans-serif;
     font-weight: 400;
- } 
+ }
 
  .text__btns {
      margin-top: 1rem;
@@ -99,7 +105,7 @@ height: 100%;
      border-radius: 10px;
      font-weight: 600;
      font-family: "Lato", sans-serif;
-     
+
  }
 
  .btn__cta {
@@ -109,27 +115,107 @@ height: 100%;
 
  .btn__more {
      color: #1e1e1e
-} 
+}
 
 .cannabis__cannabis {
-    display: flex; 
+    display: flex;
     /* background-color: red;  */
     justify-content: center;
-    align-items: center; 
-    height: 40vh 
-} 
+    align-items: center;
+    height: 45vh;
+    width: 100%;
+
+
+}
 
 .intro_text {
     display: flex;
-    align-items: colum
+    align-items: center;
     justify-content: center;
-    padding: 0 300px;
-} 
+    /* padding: 0 300px;  */
+    text-align: center;
+    max-width: 100%;
+
+}
 
 .intro_text p {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     color: #1e1e1e;
-    max-width: 400px
- 
+    max-width: 578px;
+    /* background-color: red;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (max-width: 480px) {
+    /* menu */
+ .header {
+     display: flex;
+     flex-direction: column;
+     width: 90%;
+     height: 100%;
+     margin: auto;
+
+}
+ .nav {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     padding: 1.5rem 1rem ;
+     /* background-color: red; */
+ }
+
+.nav-item{
+    margin-top: auto;
+   padding-left: auto;
+}
+
+
+
+.intro_text {
+    display: flex;
+    flex-direction: column;
+   margin-top: 4rem;
+   padding: 0 1rem 0 1rem;
+}
+
+.cannabis {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+
+}
+
+.bis__text {
+   max-width: 100%;
+   padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+.cannabis__img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.logo {
+    height: 5rem;
+    padding: 0 1rem;
+    max-width: 100%;
+}
+
+
 }
