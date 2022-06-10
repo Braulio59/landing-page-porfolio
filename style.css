@@ -113,6 +113,10 @@ height: 100%;
      color: #dce35b;
  }
 
+ .btn__cta:hover {
+     background-color: rgb(138, 146, 138);
+ }
+
  .btn__more {
      color: #1e1e1e
 }
