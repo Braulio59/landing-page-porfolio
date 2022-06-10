@@ -46,6 +46,28 @@ height: 100%;
 .nav-item {
     text-align: center;
     display: flex;
+} 
+
+.nav-item {
+    position: relative;
+}
+
+.header .item-link::after {
+content: "";
+height: 3px;
+background: #dce35b;
+width: 100%;
+position: absolute;
+bottom: 0;
+left: 0;
+transform: scaleX(0);
+transform-origin: bottom right;
+transition: transform 0.15s ease;
+}
+
+.header .item-link:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
 }
 
 .nav-link{
