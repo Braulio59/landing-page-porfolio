@@ -95,7 +95,6 @@ transition: transform 0.15s ease;
     box-shadow: rgb(0, 0, 0, 0.5)
 } 
 
-
 .bis__text {
     display: flex;
     flex-direction: column;
@@ -373,4 +372,27 @@ transition: transform 0.15s ease;
 }
 
 
+} 
+
+@media (min-width: 1020px) {
+
+    .card-container{
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+    } 
+
+    .description-section p {
+        max-width: 500px;
+    } 
+
+    .attention-container {
+       flex-direction: row;
+       max-width: 1200px;
+       margin: 0 auto;
+       gap: 50px; 
+       
+    }
+
+ 
 }
