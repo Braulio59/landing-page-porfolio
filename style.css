@@ -338,6 +338,7 @@ transition: transform 0.15s ease;
     padding: 1rem; 
 } 
 
+/* section5 contacto */
 .contacto_con {
     padding: 8rem 0;
 }  
@@ -352,14 +353,66 @@ transition: transform 0.15s ease;
 
 .contacto h3 {
     font-family: "Lato", sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: left;
-    font-weight: 900;
+    font-weight: 600; 
+}   
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto i {
+    font-size: 1rem;
+    margin-top: 1rem;
 } 
 
-.contacto { 
-    font-size: 400;
-    background-color: red;
+.redes{
+    display: flex;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+
+.redes_title {
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Lato",sans-serif;
+    font-weight: 900;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 3rem;
+    margin: 0 5rem;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 450px;
+}
+
+.map h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    margin-top: 0.8rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 900;
+    font-family: "Lato",sans-serif;
+    margin-bottom: 2rem;
 }
 
 
